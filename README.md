@@ -10,6 +10,8 @@ Then fire local development server `$ hugo serve`.
 
 Build the site with `$ hugo` and find all files in `/public`.
 
+## Misc
+
 Original theme [zerostaticthemes/hugo-whisper-theme](https://github.com/zerostaticthemes/hugo-whisper-theme).
 
 This site is automatically build and deployed using GitHub Actions and GitHub Pages.
@@ -17,5 +19,5 @@ This site is automatically build and deployed using GitHub Actions and GitHub Pa
 
 ## Sponsorship
 
-[![BMBF logo](assets/bmbf-logo.svg)](https://www.bmbf.de/)
-[![Prototypefund](assets/logo-prototype.svg)](https://prototypefund.de/)
+[![BMBF logo](static/assets/bmbf-logo.svg)](https://www.bmbf.de/)
+[![Prototypefund](static/assets/logo-prototype.svg)](https://prototypefund.de/)
