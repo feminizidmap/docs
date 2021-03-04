@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="col-12 col-md-9">
-      <span class="overview">Overview</span>
+      <p class="overview"><time datetime="{{ .Date }}">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</time></p>
       <h1 class="title">{{ .Title }}</h1>
       <div class="content">
         {{ .Content }}

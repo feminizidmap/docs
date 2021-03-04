@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on Technical documentation for Feminizidmap</title>
+    <link>https://tech.feminizidmap.org/docs/</link>
+    <description>Recent content in Overview on Technical documentation for Feminizidmap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tech.feminizidmap.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>feminizid-mapper</title>
+      <link>https://tech.feminizidmap.org/docs/mapper/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tech.feminizidmap.org/docs/mapper/</guid>
+      <description>Lorem ipsum
+Overview Lorem Ipsum
+Backend Frontend Development setup Production setup </description>
+    </item>
+    
+    <item>
+      <title>briefkasten</title>
+      <link>https://tech.feminizidmap.org/docs/briefkasten/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tech.feminizidmap.org/docs/briefkasten/</guid>
+      <description>Lorem ipsum
+Overview Lorem Ipsum
+Backend Frontend Development setup Production setup </description>
+    </item>
+    
+  </channel>
+</rss>

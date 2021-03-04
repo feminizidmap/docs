@@ -1,14 +1,13 @@
 ---
-title: 'feminizid-mapper'
+title: 'Mapper'
 date: 2021-03-04
 weight: 2
 ---
 
-Lorem ipsum
+🗃️ Mapper is the main database interface app. It contains the user management, data entry and organisation and exposes a REST API.
+
 
 ## Overview
-
-Lorem Ipsum
 
 ### Backend
 
