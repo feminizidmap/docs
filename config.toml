@@ -31,6 +31,7 @@ summaryLength = 20
   #homepage_image = '/images/terminal.gif'
   ## You can enable to add anchor links to header elements
   enable_anchor_link = true
+  mainSections = ['blog', 'docs']
 
 [params.logo]
   mobile = "/assets/tech-logo.png"

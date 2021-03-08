@@ -4,7 +4,6 @@
 
 
 {{ define "main" }}
-<div class="col-12 col-md-9">
   <span class="overview">Overview</span>
   <h1 class="title">{{ .Title }}</h1>
   <div class="content">
@@ -14,5 +13,5 @@
   {{ range.Pages }}
   {{ .Render "summary" }}
   {{ end }}
-</div>
+
 {{ end }}
