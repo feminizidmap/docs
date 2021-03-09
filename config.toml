@@ -16,14 +16,19 @@ summaryLength = 20
     weight = 1
 
 [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
     name = "Docs"
     url = "/docs/"
-    weight = 2
+    weight = 3
     
 [[menu.main]]
     name = "Blog"
     url = "/blog/"
-    weight = 3
+    weight = 4
     
 [params]
   homepage_button_link = '/docs'

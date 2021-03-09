@@ -1,0 +1,27 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-about{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+
+{{ define "main" }}
+<div class="strip">
+  <div class="container pt-4 pb-16">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="title">{{ .Title | default .Site.Title }}</h1>
+        <div class="content">
+          {{ if .Content }}
+          {{ .Content }}
+          {{ else }}
+          <p>{{ .Site.Params.homepage_intro }}</p>
+          {{ end }}
+        </div>
+        <a class="button button-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
+          {{ .Site.Params.homepage_button_text }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
