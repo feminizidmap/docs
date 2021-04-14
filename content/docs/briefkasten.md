@@ -1,7 +1,7 @@
 ---
 title: 'Briefkasten'
 date: 2021-03-04
-weight: 3
+weight: 10
 ---
 
 📮 Briefkasten is a standalone app used for case reporting. It renders a form from configuration and forwards submitted content to the desired email address.
