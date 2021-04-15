@@ -14,15 +14,15 @@ The frontend is a standard [Vue.JS](https://v3.vuejs.org/) application, you need
 
 I'll be using [yarn](https://classic.yarnpkg.com/en/docs/install/) as package manager and task runner in this guide, but npm is also fine.
 
+Inside `frontend` run `$ yarn install` to install dependencies.
+
 ### Environment variables
 
 Edit the `.env.development` file, most importantly update the `VUE_APP_API_URL` if you make changes. If you're running the backend service in the default settings, then there is nothing to be done here.
 
 ### Development server
 
-Inside `frontend` run `$ yarn install` to install dependencies,
-
-then run `$ yarn serve` to start the development server on `localhost:8080` with hot-reload.
+Run `$ yarn serve` to start the development server on `localhost:8080` with hot-reload.
 
 
 ### Misc
