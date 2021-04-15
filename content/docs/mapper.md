@@ -8,10 +8,10 @@ weight: 1
 
 ## Overview
 
-- [Development](/docs/mapper/install)
-  - [Frontend](http://localhost:1313/docs/mapper/install/#frontend)
-  - [Backend](http://localhost:1313/docs/mapper/install/#backend)
-- [Deployment setup]()
+- [Development](/docs/mapper/development)
+  - [Frontend](/docs/mapper/development/#frontend)
+  - [Backend](/docs/mapper/development/#backend)
+- [Deployment setup](/docs/mapper/deployment)
   - Heroku
   - Docker
 - Backend
