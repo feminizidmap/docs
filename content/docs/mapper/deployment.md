@@ -15,7 +15,8 @@ Add the required environment variables to each and you're done. See the github/d
 
 ## Docker
 
-Copy the toplevel `env.sample` to `.env` and adjust the values.
+Copy the toplevel `env.sample` to `.env` and adjust the values. Unfortunately you also have to copy the `fontent/env.production.sample` to `frontend/.env.production`, too, as its build process runs before docker injects the env variables from the toplevel. Oh well. VUE_APP_API_URL is the BACKEND_URL.
+
 Look into `docker-compose.yml` and adjust url paths as well (most likely FRONTEND_URL and BACKEND_URL).
 
 Run `docker-compose up -d` to start the containers.
