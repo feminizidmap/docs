@@ -8,10 +8,8 @@ weight: 10
 
 ## Overview
 
-
-### Backend
-
-### Frontend
+- [Development](/docs/briefkasten#development)
+- [Deployment](/docs/briefkasten#deployment)
 
 ## Development setup
 
@@ -45,10 +43,18 @@ You should see the app at `localhost:3000`.
 
 ### Use mailcatcher and SMTP
 
-Instead of using sendmail you can use mailcatcher to send emails and debug them in a browser-based email client.
+The default method of sending mail is `sendmail`.
 
-Start mailcatcher in a different terminal window like `$ bundle exec mailcatcher` and comment out this line
+But you can use `mailcatcher` to send emails and debug them in a browser-based email client, too, the gem is already added.
 
-`mail.delivery_method :sendmail` in favor of this line `mail.delivery_method :smtp, address: "localhost", port: 1025` and restart thin.
+Start `mailcatcher` in a different terminal window with `$ bundle exec mailcatcher` and comment out this line in `app.rb`
 
-## Production setup
+`mail.delivery_method :sendmail`
+
+in favor of this line
+
+`mail.delivery_method :smtp, address: "localhost", port: 1025`
+
+and restart thin.
+
+## Deployment
