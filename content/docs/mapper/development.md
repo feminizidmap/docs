@@ -40,7 +40,7 @@ The backend is a standard Rails application talking to a Postgres database and a
 
 ### Dependencies
 
-You need [Postgres](https://www.postgresql.org/download/) and [Redis](https://redis.io/download) and the right [Ruby version](https://github.com/feminizidmap/feminizid-mapper/blob/main/backend/.ruby-version) installed. Start both in the background and have your Postgres user credentials ready.
+You need [Postgres](https://www.postgresql.org/download/) and [Redis](https://redis.io/download) and the right [Ruby version](https://github.com/feminizidmap/feminizid-mapper/blob/main/backend/.ruby-version) installed. Start both in the background and have your Postgres user credentials ready. If you need more help getting Postgres and Redis up and running, [consider reading this guide](https://gist.github.com/lislis/7238a1162767de105e440448bbc001b6).
 
 For easy Ruby version installation and management I recommend [rbenv](https://github.com/rbenv/rbenv) but rvm or chruby are also fine.
 
