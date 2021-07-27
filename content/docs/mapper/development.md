@@ -48,9 +48,9 @@ Inside `backend` run `$ bundle install` to install dependencies.
 
 ### Environment variables
 
-Run `$ cp env.sample .env` to create a working copy for your local settings.
+Run `$ cp env.sample .env` to create the file `.env` for your local settings. It contains some placeholder values that you need to replace with your own.
 
-Edit the `DATABASE_URL` and `DATABASE_TEST_URL` with the credentials for your local Postgres user and database and `REDIS_URL` with, you guessed it, the Redis url.
+Edit the `DATABASE_URL` and `DATABASE_TEST_URL` in your `.env` with the credentials for your local Postgres user and database and `REDIS_URL` with, you guessed it, the Redis url. Refer to [this guide](https://gist.github.com/lislis/7238a1162767de105e440448bbc001b6) to help figuring out database user and password.
 
 To set a `SESSION_SECRET` for JWT, run `$ bin/rake secret` and copy the output in the `.env` file.
 
